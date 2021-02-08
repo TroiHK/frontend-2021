@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "font-awesome": "^4.7.0",
+    "gsap": "^3.6.0",
+    "locomotive-scroll": "^4.0.6"
+  }
+}
