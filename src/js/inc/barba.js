@@ -23,6 +23,8 @@ const barbaJs = () => {
         transitions: [{
             name: 'opacity-transition',
             leave(data) {
+                scroll.scrollTo(0, 0, 50, [0.00, 0.28, 0.00, 1.00], true);
+                
                 return gsap.to(data.current.container, {
                     opacity: 0
                 });
